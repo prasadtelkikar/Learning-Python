@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PrintFunction.py</StartupFile>
+    <StartupFile>2_NumAndOp\NumbersAndOperators.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,30 +22,38 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="ArithmaticOperator.py">
+    <Compile Include="3_Variables\AssigningValuesToName.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="HelloWorld.py">
+    <Compile Include="HackerRank\ArithmaticOperator.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="IfElse.py">
+    <Compile Include="HackerRank\HelloWorld.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Loops.py">
+    <Compile Include="HackerRank\IfElse.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="NumbersAndOperators.py">
+    <Compile Include="HackerRank\Loops.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PrintFunction.py">
+    <Compile Include="2_NumAndOp\NumbersAndOperators.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="PythonDivision.py">
+    <Compile Include="HackerRank\PrintFunction.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="WriteFunction.py">
+    <Compile Include="HackerRank\PythonDivision.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\WriteFunction.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HackerRank\" />
+    <Folder Include="D:\Workstation\Learning-Python\LearningPython\LearningPython\2_NumAndOp\" />
+    <Folder Include="3_Variables\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
