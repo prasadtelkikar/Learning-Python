@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>3_Variables\PopElementFromList.py</StartupFile>
+    <StartupFile>4_MakingDecision\comparisons.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="3_Variables\PopElementFromList.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4_MakingDecision\comparisons.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\ArithmaticOperator.py">
@@ -67,6 +70,7 @@
     <Folder Include="HackerRank\" />
     <Folder Include="D:\Workstation\Learning-Python\LearningPython\LearningPython\2_NumAndOp\" />
     <Folder Include="3_Variables\" />
+    <Folder Include="4_MakingDecision\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
