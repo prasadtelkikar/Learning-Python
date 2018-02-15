@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>5_Functions\SimpleFunction.py</StartupFile>
+    <StartupFile>5_Functions\Calculator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -50,6 +50,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="4_MakingDecision\OmlettesMaking.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5_Functions\Calculator.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5_Functions\GetOmlet.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="5_Functions\SimpleFunction.py">

@@ -11,4 +11,6 @@ new_sauce = make_new_sauce()
 print("new_sauce")
 print(new_sauce)
 
+#print docstring here using __doc__
+print(make_new_sauce.__doc__)
 
