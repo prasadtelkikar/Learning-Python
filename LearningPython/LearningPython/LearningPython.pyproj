@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HackerRank\TextWrap.py</StartupFile>
+    <StartupFile>HackerRank\NestedList.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -67,10 +67,16 @@
     <Compile Include="HackerRank\ArithmaticOperator.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\FindRunnerUp.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\HelloWorld.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\IfElse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HackerRank\ListComprehension.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\Lists.py">
@@ -80,6 +86,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="2_NumAndOp\NumbersAndOperators.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HackerRank\NestedList.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\PrintFunction.py">
