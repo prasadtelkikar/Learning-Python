@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HackerRank\FindingPercentage.py</StartupFile>
+    <StartupFile>HackerRank\WhatsYourName.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -100,7 +100,13 @@
     <Compile Include="HackerRank\PythonDivision.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\SplitJoin.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\TextWrap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HackerRank\WhatsYourName.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\WriteFunction.py">
