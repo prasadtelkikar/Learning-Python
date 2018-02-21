@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HackerRank\StringMutation-1.py</StartupFile>
+    <StartupFile>HackerRank\TextWrap.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -67,6 +67,9 @@
     <Compile Include="HackerRank\ArithmaticOperator.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\Capitalize.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\FindingPercentage.py">
       <SubType>Code</SubType>
     </Compile>
@@ -109,6 +112,9 @@
     <Compile Include="HackerRank\StringMutation.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\StringValidator.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\SwapCase.py">
       <SubType>Code</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     <Folder Include="3_Variables\" />
     <Folder Include="4_MakingDecision\" />
     <Folder Include="5_Functions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HackerRank\TestCase4Capitalizae.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
