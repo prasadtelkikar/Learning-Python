@@ -1,12 +1,14 @@
 # code is not working properly failing 4 test cases passing only 2
-def Capitalize(string):
-    for word in string.split():
-        print(word)
-
-    #list = [word[0].upper() + word[1:] for word in string.split()]
-    #capitalizedString = ' '.join(list)
-    return capitalizedString
+def capitalize(string):
+  chars = list(string)
+  chars[0] = chars[0].upper()
+  for ch in range(1, len(string)):
+    if(chars[ch] == ' '):
+       chars[ch + 1] = chars[ch + 1].upper()
+       
+  temp = ''.join(chars)
+  return temp
 
 string = input()
-capitalizeString  = Capitalize(string)
-print(capitalizeString)
+capitalized_string = capitalize(string)
+print(capitalized_string)
