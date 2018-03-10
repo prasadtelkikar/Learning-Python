@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e0ce4e04-2fa9-4756-b766-9a8850a4ca9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HackerRank\IntroductionToSet.py</StartupFile>
+    <StartupFile>HackerRank\SymDifferenceOperation.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -72,6 +72,9 @@
     </Compile>
     <Compile Include="HackerRank\DesignerDoorMat-1.py" />
     <Compile Include="HackerRank\DesignerDoorMat.py" />
+    <Compile Include="HackerRank\DiffOperation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\FindAString.py">
       <SubType>Code</SubType>
     </Compile>
@@ -85,6 +88,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\IfElse.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HackerRank\InsertionOperation.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\IntroductionToSet.py">
@@ -108,6 +114,9 @@
     <Compile Include="HackerRank\NestedList.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\PopRemoveDiscard.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\PrintFunction.py">
       <SubType>Code</SubType>
     </Compile>
@@ -129,10 +138,16 @@
     <Compile Include="HackerRank\SwapCase.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="HackerRank\SymDifferenceOperation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HackerRank\TextAllignment.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\TextWrap.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HackerRank\UnionOperation.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HackerRank\WhatsYourName.py">
